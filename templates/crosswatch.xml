@@ -8,7 +8,7 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
 
-  <Icon>https://raw.githubusercontent.com/cenodude/crosswatch-unraid/main/icon.svg</Icon>
+  <Icon>https://raw.githubusercontent.com/cenodude/crosswatch-unraid/main/icon.png</Icon>
   <WebUI>http://[IP]:[PORT:8787]</WebUI>
 
   <Overview>CrossWatch synchronizes watchlists, ratings, history and playback progress between Plex, Jellyfin, Emby, SIMKL, Trakt, AniList and other supported providers.</Overview>
