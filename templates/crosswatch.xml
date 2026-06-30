@@ -11,7 +11,22 @@
   <Icon>https://raw.githubusercontent.com/cenodude/crosswatch-unraid/main/icon.png</Icon>
   <WebUI>http://[IP]:[PORT:8787]</WebUI>
 
-  <Overview>CrossWatch synchronizes watchlists, ratings, history and playback progress between Plex, Jellyfin, Emby and many trackers.</Overview>
+  <Overview>CrossWatch synchronizes media activity between Plex, Jellyfin, Emby and supported tracking services, with scheduled syncs, realtime monitoring, webhooks, captures and management tools.</Overview>
+
+  <Description>CrossWatch is a self hosted synchronization and media activity management platform.&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Multi profile, multi server and multi tracker support.&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+Supported providers include Plex, Jellyfin, Emby, PublicMetaDB, Trakt, SIMKL, AniList, TMDb, MDBList and Tautulli.&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Features include:&lt;/b&gt;&lt;br&gt;
+• Synchronization of watchlists, ratings, history and playback progress&lt;br&gt;
+• Realtime watcher for Plex, Jellyfin and Emby, no Plex Pass or Emby Premiere required&lt;br&gt;
+• Webhook based scrobbling and activity updates&lt;br&gt;
+• Captures for creating snapshots of watchlists, ratings and history&lt;br&gt;
+• Editor for inspecting, modifying, adding and blocking media items&lt;br&gt;
+• Playback Progress Manager for reviewing and editing unfinished playback sessions&lt;br&gt;
+• Analyzer for detecting stuck or inconsistent items between providers&lt;br&gt;
+• Unified Watchlist for viewing items from multiple providers&lt;br&gt;
+• CW Tracker for retaining local snapshots of media server and tracker data&lt;br&gt;&lt;br&gt;
+CrossWatch is managed through a local web interface and supports both manual and scheduled operation.</Description>
 
   <Support>https://github.com/cenodude/CrossWatch/issues</Support>
   <Project>https://github.com/cenodude/CrossWatch</Project>
@@ -19,7 +34,7 @@
   <ReadMe>https://wiki.crosswatch.app/getting-started/docker-setup</ReadMe>
 
   <Category>MediaApp:Video Tools:Utilities</Category>
-  <ExtraSearchTerms>Plex Jellyfin Emby SIMKL Trakt AniList TMDb MDBList Tautulli watchlist ratings history playback progress scrobble synchronization</ExtraSearchTerms>
+  <ExtraSearchTerms>Plex Jellyfin Emby PublicMetaDB SIMKL Trakt AniList TMDb MDBList Tautulli watchlist ratings history playback progress scrobble synchronization webhook realtime watcher captures editor analyzer media tracker</ExtraSearchTerms>
 
   <Requires>At least one supported media server or tracking service account.</Requires>
 
