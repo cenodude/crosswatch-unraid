@@ -23,7 +23,7 @@
 
   <Requires>At least one supported media server or tracking service account.</Requires>
 
-  <Beta>false</Beta>
+  <Beta>true</Beta>
 
   <Config
     Name="WebUI Port"
