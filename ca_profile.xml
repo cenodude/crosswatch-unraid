@@ -3,7 +3,7 @@
   <Profile>
     Official Unraid Community Applications templates for CrossWatch, a self hosted synchronization platform for media servers and tracking services.
   </Profile>
-  <Icon>https://raw.githubusercontent.com/cenodude/crosswatch-unraid/main/icon.svg</Icon>
+  <Icon>https://raw.githubusercontent.com/cenodude/crosswatch-unraid/main/icon.png</Icon>
   <WebPage>https://www.crosswatch.app/</WebPage>
   <Forum>https://github.com/cenodude/CrossWatch/issues</Forum>
   <DonateLink>https://www.buymeacoffee.com/cenodude</DonateLink>
