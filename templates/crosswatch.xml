@@ -18,7 +18,7 @@
   <TemplateURL>https://raw.githubusercontent.com/cenodude/crosswatch-unraid/main/templates/crosswatch.xml</TemplateURL>
   <ReadMe>https://wiki.crosswatch.app/getting-started/docker-setup</ReadMe>
 
-  <Category>MediaApp:Video</Category>
+  <Category>MediaApp:Video Tools:Utilities</Category>
   <ExtraSearchTerms>Plex Jellyfin Emby SIMKL Trakt AniList TMDb MDBList Tautulli watchlist ratings history playback progress scrobble synchronization</ExtraSearchTerms>
 
   <Requires>At least one supported media server or tracking service account.</Requires>
