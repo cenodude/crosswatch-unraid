@@ -11,7 +11,7 @@
   <Icon>https://raw.githubusercontent.com/cenodude/crosswatch-unraid/main/icon.png</Icon>
   <WebUI>http://[IP]:[PORT:8787]</WebUI>
 
-  <Overview>CrossWatch synchronizes watchlists, ratings, history and playback progress between Plex, Jellyfin, Emby, SIMKL, Trakt, AniList and other supported providers.</Overview>
+  <Overview>CrossWatch synchronizes watchlists, ratings, history and playback progress between Plex, Jellyfin, Emby and many trackers.</Overview>
 
   <Support>https://github.com/cenodude/CrossWatch/issues</Support>
   <Project>https://github.com/cenodude/CrossWatch</Project>
@@ -21,9 +21,9 @@
   <Category>MediaApp:Video</Category>
   <ExtraSearchTerms>Plex Jellyfin Emby SIMKL Trakt AniList TMDb MDBList Tautulli watchlist ratings history playback progress scrobble synchronization</ExtraSearchTerms>
 
-  <Requires>Internet access and accounts for the providers you want to synchronize.</Requires>
+  <Requires>At least one supported media server or tracking service account.</Requires>
 
-  <Beta>true</Beta>
+  <Beta>false</Beta>
 
   <Config
     Name="WebUI Port"
@@ -41,7 +41,7 @@
     Target="/config"
     Default="/mnt/user/appdata/crosswatch"
     Mode="rw"
-    Description="Persistent CrossWatch configuration and application data."
+    Description="Persistent CrossWatch configuration and application data, mounted inside the container at /config."
     Type="Path"
     Display="always"
     Required="true"
@@ -58,20 +58,20 @@
     Mask="false"/>
 
   <Config
-    Name="Application UID"
+    Name="User ID"
     Target="APP_UID"
     Default="99"
-    Description="Numeric user ID used to run CrossWatch."
+    Description="Numeric user ID used to run CrossWatch. The Unraid default is 99."
     Type="Variable"
     Display="advanced"
     Required="true"
     Mask="false"/>
 
   <Config
-    Name="Application GID"
+    Name="Group ID"
     Target="APP_GID"
     Default="100"
-    Description="Numeric group ID used to run CrossWatch."
+    Description="Numeric group ID used to run CrossWatch. The Unraid default is 100."
     Type="Variable"
     Display="advanced"
     Required="true"
